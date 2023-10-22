@@ -12,6 +12,19 @@ This repository was created to share useful information that I wish I had, as we
 
 ![](./assets/atmpedal_empty.jpg)
 
+## Project structure
+
+The project is structured as follows:
+
+- [firmware](./firmware): a PlatformIO / Arduino project to build the firmware.
+- [hardware](./hardware): the hardware design design (schematic, PCB and POM file).
+- [receipes](./receipes): concrete examples of how this project can be used:
+  * [Kawai "Grand Feel" pedals (GFP-3, F-302...)](./receipes/kawai_grand_feed_pedals/README.md)
+  * Feel free to contribute to complete the list!
+
+## Demonstration
+
+[![Demonstration](https://img.youtube.com/vi/zMIhc3xMuQI/0.jpg)](https://www.youtube.com/watch?v=zMIhc3xMuQI)
 
 ## Use cases
 
@@ -34,21 +47,4 @@ If you use the internal sound engine of your digital piano, you can plug it like
 If you plug the ATMPedal to your computer directly, you can use the MIDI pedal events in your virtual instruments.
 
 ![](./assets/usage_standalone_midi.png)
-
-
-
-## Project structure
-
-The project is structured as follows:
-
-- [firmware](./firmware): a PlatformIO / Arduino project to build the firmware.
-- [hardware](./hardware): the hardware design design (schematic, PCB and POM file).
-- [receipes](./receipes): concrete examples of how this project can be used:
-  * [Kawai "Grand Feel" pedals (GFP-3, F-302...)](./receipes/kawai_grand_feed_pedals/README.md)
-  * Feel free to contribute to complete the list!
-
-## Demonstration
-
-FIXME
-
 

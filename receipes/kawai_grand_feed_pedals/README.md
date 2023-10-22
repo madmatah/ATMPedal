@@ -77,7 +77,8 @@ Then, you just have to connect the wires to the PEDAL (5 pin) screw connector of
 
 ### Demo
 
-FIXME
+[![Demonstration](https://img.youtube.com/vi/zMIhc3xMuQI/0.jpg)](https://www.youtube.com/watch?v=zMIhc3xMuQI)
+
 
 ### Firmware configuration
 
